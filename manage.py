@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'login_registration.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'beltexam.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
